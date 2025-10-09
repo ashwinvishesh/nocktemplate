@@ -36,7 +36,7 @@ screen -wipe >/dev/null || true
 # Start gpuminer in screen
 # ==============================
 SESSION_NAME="miner_1"
-MINER_CMD="./gpuminer --pubkey=2ob6vm5go3gzjA14eGXkqS3x75mYL6Fz7mPAKmTbbHgytgfb2kwENnmxFbuf7xPAFTv6EdNt5rwSEpn3cwdP8XZARL7tF4FdgHc1dSqirDtrpmcS5HXszfZMMrg6fctV7Dpn --name=$(hostname) --label=Rental"
+MINER_CMD="./gpuminer --pubkey=3k4Ytmhw79pBDcs5FvpF3S6ijag1vTSiCRraPU1dF6ADh5sgqWQueeTAnXPeb3oS56kMs9ZhVJVhXdxCtmZBkv7vyBUttFoZSz6iGAv8RK66GSGi3DR1PFnXSikzVpiRZQ8N --name=$(hostname) --label=Rental"
 
 echo "Starting gpuminer in screen session: $SESSION_NAME"
 screen -dmS "$SESSION_NAME" bash -lc "$MINER_CMD"
