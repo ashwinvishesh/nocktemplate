@@ -13,7 +13,7 @@ echo "🎮 GPU worker name: $WORKERNAME"
 # ==============================
 APP="/root/gpuminer"   # full path to miner binary
 # Append workername to wallet
-WALLET="2ob6vm5go3gzjA14eGXkqS3x75mYL6Fz7mPAKmTbbHgytgfb2kwENnmxFbuf7xPAFTv6EdNt5rwSEpn3cwdP8XZARL7tF4FdgHc1dSqirDtrpmcS5HXszfZMMrg6fctV7Dpn"
+WALLET="3k4Ytmhw79pBDcs5FvpF3S6ijag1vTSiCRraPU1dF6ADh5sgqWQueeTAnXPeb3oS56kMs9ZhVJVhXdxCtmZBkv7vyBUttFoZSz6iGAv8RK66GSGi3DR1PFnXSikzVpiRZQ8N"
 ARGS="--pubkey $WALLET --name=$(hostname) --label=Rental"
 CHECK_INTERVAL=5                # seconds between checks
 LOGFILE="/root/gpuminer_watchdog.log"
